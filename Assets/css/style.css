@@ -1,0 +1,12 @@
+.div1{
+font-size: 18px; 
+background-color:  rgb(218, 224, 228);  
+border-radius: 10px; 
+border: 1px solid blue;
+
+}
+
+.div1:hover{
+    border: 1px solid green;
+    background-color:white;
+}

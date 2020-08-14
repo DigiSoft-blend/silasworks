@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">-
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link rel="icon" href="../../favicon.ico"-->
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    
+    <!-- Custom styles for this template -->
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"  rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="Assets/css/style.css" rel="stylesheet">
+
+   
+</head>
+
+ <body  style="background-color: rgb(49, 38, 66);">
+   
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class ="col-md-12" style="background-color: rgb(2, 96, 219); color: white;">
+           <h1>Quiz</h1>
+        </div>
+
+       
+
+       <div class="col-md-10" style="background-color: rgb(242, 244, 250); color: black;">
+        <div class="container" style="background-color: rgb(49, 38, 66); width: 100%; font-size: 30px; border-radius: 2px;">  
+              <div  style="text-align: center; background-color: rgb(24, 17, 58); border-radius: 5px;">
+                 <h3 style="font-size: 40px; color: crimson;">OXFORD</h3>
+                 <h2 style="font-size: 30px; color: crimson;">UNIVERSITY</h2>
+                <hr>
+              </div>
+              <h1 style="text-align: center; background-color: blueviolet; border-radius: 10px; color: white;" > Question type: <span style="color: chartreuse;">Nigerian</span> </h1>
+              <hr>
+              
+          <p style="text-align: center; color: white;">(1) Which year did Nigeria gain her independence ?</p>
+
+          <div id="myDiv" class="col-md-12 div1">
+           <br> 
+          <span id="s1">A)<i> 1960</i></span>  
+          <br>
+          <span>B)<i> 2004</i></span>
+          <h3 id="result" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> 1961</i></span> 
+          <br>
+          <span>D)<i> 1997</span> 
+          <br>
+          <div  style="text-align: center; color: white;">
+            <input  type="text" placeholder="Enter Option" id="text1" style="color: blue;" size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn1();">check</button>
+          </div>
+          <br>
+          </div>
+           
+          <div style="text-align: center;">
+            <br><br>
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <p style="text-align: center; color: white;">(2) Who was the first prime minister of Nigera ?</p>
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Abubakar Balewa Tafawa </i></span>  
+          <br>
+          <span>B)<i> Tafawa Balewa Salamu</i></span>
+          <h3 id="result2" style="display: flex; float: right;"></h3>  
+          <br>
+          <span id="s2">C)<i> Abubakar Tafawa Balewa</i></span> 
+          <br>
+          <span>D)<i> Donald Trump</span> 
+          <br>
+          <div style="text-align: center; color: white;">
+            <input id="text2" type="text" placeholder="Enter Option" style="color: blue;"  size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn2();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <p style="text-align: center; color: white;">(3) Who is Tony Stark in a movie called The Avengers ?</p>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Spider Man </i></span>  
+          <br>
+          <span>B)<i> Captain America</i></span>
+          <h3 id="result3" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> The Flash</i></span> 
+          <br>
+          <span id="s3">D)<i> Iron Man</span> 
+          <br>
+          <div style="text-align: center;">
+            <input id="text3" type="text" placeholder="Enter Option" style="color: blue;"  size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn3();">check</button>
+          </div>
+          <br> 
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+          
+          <p style="text-align: center; color: white;">(4) Who is the CEO of Start Innovation Hub  ?</p>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Mr Emmanuel Dynasty  </i></span> 
+          <br>
+          <span id="s4">B)<i> Mr Hanson Johnson</i></span>
+          <h3 id="result4" style="display: flex; float: right;"></h3>  
+          <br>
+          <span>C)<i> Donald Trump </i></span> 
+          <br>
+          <span>D)<i> Mr Silas Udofia</span> 
+          <br>
+          <div style="text-align: center;">
+            <input id="text4" type="text" placeholder="Enter Option" style="color: blue;"  size="10px"> 
+          <button type="button" class="btn btn-primary" onclick="btn4();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+
+          <div style="text-align: center;">
+            <span class="fa fa-graduation-cap" style="font-size: 50px; color: crimson;"></span>
+          </div>
+
+          
+          <p style="text-align: center; color: white;">(5) The Angel said to mary, fear not mary for you have found favour with GOD. Which Angel siad this ?</p>
+
+          <div class="col-md-12 div1">
+            <br>
+          <span>A)<i> Angel Silas </i></span>  
+          <br>
+          <span>B)<i> Angel Micheal</i></span>
+          <h3 id="result5" style="display: flex; float: right;"></h3 >
+          <br>
+          <span>C)<i> Angel Rapheal</i></span> 
+          <br>
+          <span id="s5">D)<i> Angel Gabriel</i></span> 
+          <br>
+          <div style="text-align: center;">
+            <input id="text5" type="text" placeholder="Enter Option" style="color: blue;"  size="10px">
+          <button type="button" class="btn btn-primary" onclick="btn5();">check</button>
+          </div>
+          <br>
+          </div>
+          <br><br>
+         
+        </div>
+       </div>
+
+       
+       <div class="col-md-2" style="background-color: rgb(49, 38, 66); color: blueviolet;">
+        <br>
+        <div class="container-fluid" style="background-color: rgb(49, 38, 66); border: 1px solid rgb(179, 169, 167); border-radius: 2px; box-shadow: 2px red; text-align: center;" >
+          <h1>Results</h1>
+          <hr>
+          <h3 id="score"></h3>
+          <button type="button" class="btn btn-success" onclick="btn6();" >Check Your Score</button>
+         <br><br>
+       </div>
+        <br>
+       <div class="container-fluid" style="background-color: rgb(49, 38, 66); border: 1px solid rgb(179, 169, 167); border-radius: 2px; box-shadow: 2px red;" >
+        <h1 style="text-align: center;">Answers</h1>
+        <hr>
+        <h3 id="score"></h3>
+        <h3 id="ans1">1) :</h3>
+        <hr>
+        <h3 id="ans2">2) :</h3>
+        <hr>
+        <h3 id="ans3">3) :</h3>
+        <hr>
+        <h3 id="ans4">4) :</h3>
+        <hr>
+        <h3 id="ans5">5) :</h3>
+        <hr>
+       <br><br>
+     </div>
+
+      </div>
+
+      </div>
+    </div>
+
+8i
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script src="js/main.js"></script>
+
+ </body>
+</html>   
